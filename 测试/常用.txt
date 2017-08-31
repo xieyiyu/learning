@@ -1,0 +1,12 @@
+电量分析：
+adb shell dumpsys batterystats --enable full-wake-history
+adb shell dumpsys batterystats --reset
+adb shell dumpsys batterystats --disable full-wake-history 
+adb bugreport > bugreport.txt
+分析地址： http://172.18.255.73:19998/
+
+设备连接出现问题adb kill-server && adb devices
+
+cherry-pick
+
+python C:\Users\yyxie\Desktop\monkey.py cy 12 1000

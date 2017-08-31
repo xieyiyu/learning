@@ -1,0 +1,9 @@
+cmd进入adb shell
+
+ps | grep monkey 查看手机后台的monkey进程
+
+kill pid 
+
+卸载手机中的monkey
+
+查看自己的monkey结果 \\share\MemberShare\Dolphin INT Shell Test\Monkey Test

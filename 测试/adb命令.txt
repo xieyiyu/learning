@@ -1,0 +1,23 @@
+adb shell input 模拟用户输入
+电脑控制手机中文本框内容输入： adb shell input text "xxxx"
+
+清除包所有数据： 进入adb shell pm clear 包名
+
+重新安装软件 adb install -r
+
+卸载：adb unistall 参数-k 卸载但保留配置和缓存
+
+查看手机运行日志 adb logcat
+
+文件复制 adb push 电脑路径 手机路径
+	 adb pull 手机路径 电脑路径
+
+重启手机 adb reboot
+
+查看手机上已安装的app包名 adb shell pm list packages
+
+查看版本信息 adb shell dumpsys package 包名
+
+获取内存使用信息 adb shell dumpsys meminfo 包名
+
+获取设备信息 adb shell getprop
